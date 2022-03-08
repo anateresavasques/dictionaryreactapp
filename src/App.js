@@ -13,7 +13,27 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Ana Teresa</small>
+          <small>
+            {" "}
+            This project was coded by{" "}
+            <a
+              href="https://portfolio-atcv.netlify.app/"
+              target="_blank"
+              id="link"
+              rel="noreferrer"
+            >
+              Ana Teresa
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/anateresavasques/dictionaryreactapp"
+              target="_blank"
+              id="link"
+              rel="noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
